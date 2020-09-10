@@ -1,0 +1,191 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+  line-height: 3rem;
+  color: rgb(252, 2, 2);
+}
+#logo {
+  position: fixed;
+  z-index: 1;
+  width: 20rem;
+  margin: 15px;
+}
+.parallax-img-one,
+.parallax-img-two,
+.parallax-img-three,
+.parallax-img-four {
+  position: relative;
+  opacity: 0.8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.parallax-img-one {
+  background-image: url("images/parallax-img-one.jpg");
+  min-height: 100%;
+}
+
+.parallax-img-two {
+  background-image: url("images/parallax-img-two.jpg");
+  min-height: 75%;
+}
+.parallax-img-three {
+  background-image: url("images/parallax-img-three.jpg");
+  min-height: 75%;
+}
+
+.parallax-img-four {
+  background-image: url("images/parallax-img-four.jpg");
+  min-height: 75%;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-one {
+  background-color: rgb(229, 238, 148);
+  color: #666;
+}
+.section_h2 {
+  font-size:2.5rem;
+  color: purple;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section_p {
+  font-size: 1.5rem;
+  color:black;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.section-two {
+  background-color: #fcf8d2;
+  color: #ddd;
+}
+
+.section-green {
+  background-color:#fcf8d2;
+  color: gray;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.text .border {
+  background-color: rgba(204, 39, 39, 0.8);
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px rgba(61, 61, 61, 0.87);
+  
+}
+
+footer {
+  width: 100%;
+  /* padding-left: 5px; */
+  background-color: #35003a;
+  line-height: 40px;
+  font-size: 14px;
+  /* border-top: 1px solid #e4e4e4; */
+  position: relative;
+  bottom: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.footer-company {
+    float: left;
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 13px;
+    color: #5f6368;
+}
+
+.footer-links {
+  color: #dbdbdb;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+  margin-right: 25px;
+}
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+position: fixed;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+display: block;
+text-align: center;
+padding: 8px 12px;
+transition: all 0.3s ease;
+color: white;
+font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+background-color: #000;
+}
+
+.facebook {
+background: #3B5998;
+color: white;
+}
+
+.twitter {
+background: #55ACEE;
+color: white;
+}
+
+.instagram {
+background: #dd4b39;
+color: white;
+}
+
+.linkedin {
+background: #007bb5;
+color: white;
+}
+
+.youtube {
+background: #bb0000;
+color: white;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  .parallax-img-one,
+  .parallax-img-two,
+  .parallax-img-three,
+  .parallax-img-four  {
+    width: 100%;
+    height:400px;
+    background-size: 100% 100%;
+  
+  }
+}
